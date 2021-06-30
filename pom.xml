@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.descoped.helidon</groupId>
+    <artifactId>helidon-application-project</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Helidon Application Project</name>
+    <description>Helidon Application Project</description>
+    <url>https://github.com/descoped/</url>
+    <inceptionYear>2021</inceptionYear>
+
+    <properties>
+        <java.version>16</java.version>
+        <module.build.sourceEncoding>UTF-8</module.build.sourceEncoding>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
+    </properties>
+
+    <developers>
+        <developer>
+            <name>Ove Ranheim</name>
+            <email>ove.ranheim@gmail.com</email>
+            <url>https://www.linkedin.com/in/oranheim/</url>
+            <organization>Descoped</organization>
+            <organizationUrl>https://descoped.io/</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/descoped/helidon-application-project.git</connection>
+        <developerConnection>scm:git:git@github.com:descoped/helidon-application-project.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <modules>
+        <module>helidon-application-base</module>
+        <module>helidon-application-testutils</module>
+    </modules>
+
+</project>
